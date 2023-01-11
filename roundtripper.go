@@ -8,12 +8,12 @@ import (
 	"strings"
 	"sync"
 
-	http "github.com/davidlinketech/fhttp"
+	http "github.com/katangensis/fhttp"
 
-	"github.com/davidlinketech/fhttp/http2"
+	"github.com/katangensis/fhttp/http2"
 	"golang.org/x/net/proxy"
 
-	utls "github.com/Carcraftz/utls"
+	utls "github.com/katangensis/utls"
 )
 
 var errProtocolNegotiated = errors.New("protocol negotiated")
